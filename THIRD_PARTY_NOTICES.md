@@ -25,5 +25,4 @@ The manuscript dataset in `data/paper/` contains statistics derived from OpenStr
 (© OpenStreetMap contributors, ODbL 1.0) and CAMS (via Open-Meteo, CC BY 4.0).
 
 The Leaflet and PDF.js versions come from the file headers. The jsPDF and SheetJS versions were read from
-the loaded modules. The font files do not record their versions. Before a public release, add the full
-OFL licence texts of the two fonts (OFL.txt).
+the loaded modules. The font files do not record their versions. The full SIL Open Font License text used by the bundled fonts is provided in `fonts/OFL.txt`.
