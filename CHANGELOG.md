@@ -3,9 +3,9 @@
 All notable changes to TODSphere. Versions follow [Semantic Versioning](https://semver.org). The NPPE
 methodology has its own version (`NPPE-7 v1.0.0`), which changes only if the scientific method changes.
 
-## [2.1.0] — unreleased (prepared 28 September 2026)
+## [2.1.0] — 2026-09-28
 
-This release aligns TODSphere with the NPPE manuscript. It changes no indicator, weight, equation or
+This release packages TODSphere 2.1.0 as a citable research-software release and aligns the implementation with the NPPE research workflow. It changes no indicator, weight, equation or
 threshold of the manuscript. Everything that computes scores now runs through one engine, and the release
 can reproduce the manuscript exactly.
 
