@@ -11,11 +11,11 @@
  * mean of dimensions with a floor of 1); balance ratio beta = A3/A2; limiting dimension.
  *
  * The indicator algorithms are ported line-for-line from the TODSphere build that
- * produced the manuscript's station_indicators.csv (reference/tod-calculator-v2-paper-build.html);
+ * used to generate the bundled reference analysis;
  * tests/reference-equivalence.test.js proves equality on randomised inputs. The only
  * difference is the NO2 emission factor: the build used 92.9 mg/veh/km (the VOC value
  * of Raparthi et al. 2021) while every reported result uses the published NO2 value of
- * 147.0 mg/veh/km (see docs/METHODOLOGY.md, "Discrepancies").
+ * 147.0 mg/veh/km, the value used for the reported reference results; the legacy-build value is retained as an explicit preset.
  *
  * No DOM access. Works as a browser global (window.TODSphereNPPE) and as a CommonJS module.
  * SPDX-License-Identifier: see LICENSE
