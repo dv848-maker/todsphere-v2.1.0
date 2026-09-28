@@ -1,30 +1,21 @@
-LICENCE NOT YET SELECTED — PLACEHOLDER
+MIT License
 
-Copyright (c) 2026 D. Sai Kiran Varma and Shalini Rankavat.
+Copyright (c) 2026 D. Sai Kiran Varma and Shalini Rankavat
 
-The authors have not yet chosen a licence for TODSphere 2.1. Until a licence is added to this file, no
-permission is granted to use, copy, modify or distribute this software beyond what applicable law allows.
-Third-party components in lib/ and fonts/ remain under their own licences (see THIRD_PARTY_NOTICES.md).
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
--------------------------------------------------------------------------------------------------------
-Note for the authors (delete this section when you replace this file with the licence text)
--------------------------------------------------------------------------------------------------------
-1. The manuscript describes TODSphere as "open-source". The terms shipped with the paper build
-   (TODSphere-Build_v2/LICENSE.txt: free for education and research, no commercial distribution) are
-   NOT an open-source licence under the OSI definition. Please pick an OSI-approved licence, or change
-   the wording in the manuscript.
-2. Recommended options:
-   - MIT: permissive and short, compatible with every vendored library. Most common for research tools.
-   - Apache-2.0: permissive, with an explicit patent grant.
-   - GPL-3.0-or-later or AGPL-3.0-or-later: copyleft, so derivative tools must stay open. AGPL also
-     covers use as a hosted web service.
-   Check any policy of your institution (Shiv Nadar Institution of Eminence) on software ownership
-   before you choose.
-3. How to apply the licence:
-   - Replace this whole file with the unmodified licence text (for example from
-     https://choosealicense.com). Keep the copyright line.
-   - Set "license" in package.json to the SPDX identifier (e.g. "MIT").
-   - Set "license" in CITATION.cff and .zenodo.json to the same identifier.
-   Zenodo requires a licence for the software record.
-4. The manuscript data in data/paper/ derive from ODbL and CC BY 4.0 sources. If you license the data
-   separately (e.g. ODbL for the OSM-derived tables), say so in README.md.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
