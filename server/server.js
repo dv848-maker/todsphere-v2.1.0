@@ -20,7 +20,7 @@ const DATA = require('../src/paper-data.js');
 const ROOT = path.resolve(__dirname, '..');
 const API_VERSION = 'v1';
 const LIMITS = { bodyDefault: 1 << 20, bodyScore: 16 << 20, stations: 500, nsimMax: 20000, elements: 200000 };
-const STATIC_ALLOW = [/^\/index\.html$/, /^\/src\/[\w.-]+\.js$/, /^\/lib\/[\w./-]+$/, /^\/fonts\/[\w.-]+\.ttf$/, /^\/docs\/[\w./-]+$/, /^\/favicon\.ico$/, /^\/data\/paper\/[\w./-]+$/];
+const STATIC_ALLOW = [/^\/index\.html$/, /^\/src\/[\w.-]+\.js$/, /^\/lib\/[\w./-]+$/, /^\/fonts\/[\w.-]+\.ttf$/, /^\/favicon\.ico$/];
 const MIME = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8',
   '.png': 'image/png', '.ttf': 'font/ttf', '.ico': 'image/x-icon', '.md': 'text/markdown; charset=utf-8', '.csv': 'text/csv; charset=utf-8', '.tex': 'text/plain; charset=utf-8', '.py': 'text/plain; charset=utf-8', '.svg': 'image/svg+xml' };
 
