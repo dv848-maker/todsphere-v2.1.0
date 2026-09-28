@@ -7,7 +7,7 @@
  *   node server/server.js            # http://127.0.0.1:8080
  *   PORT=9000 HOST=0.0.0.0 node server/server.js
  *
- * API documentation: docs/API.md
+ * API endpoints are defined below under the versioned /api/v1 routes.
  */
 const http = require('http');
 const fs = require('fs');
