@@ -2,12 +2,12 @@
   "title": "TODSphere: open-data screening of transit-oriented development with the Node–Place–People–Ecology (NPPE) framework",
   "upload_type": "software",
   "version": "2.1.0",
-  "description": "<p>TODSphere is a browser-based, zero-installation tool that computes seven open-data indicators of transit-oriented development readiness from OpenStreetMap and CAMS, aggregates them into the Node, Place, People and Ecology (NPPE) dimensions and reports the composites A1 (weighted arithmetic), A2 (dimension mean) and A3 (geometric), the balance ratio and the limiting dimension, with corridor ranking and robustness analysis.</p><p>Version 2.1.0 implements methodology NPPE-7 v1.0.0 and includes the analysis data and scripts needed to reproduce the accompanying manuscript (npm run reproduce).</p>",
+  "description": "<p>TODSphere is browser-based research software for open-data screening of transit-oriented development (TOD). It computes seven indicators covering transit accessibility, built density, land-use diversity, walkability, amenity accessibility, green space and near-road air-quality screening, aggregates them into Node, Place, People and Ecology (NPPE) dimensions, and provides composite scores, ranking and robustness diagnostics.</p><p>TODSphere is a planning-screening and research-support tool; its outputs are not a substitute for field validation, statutory planning review, exposure modelling or professional judgement.</p>",
   "creators": [
-    { "name": "Varma, D. Sai Kiran", "affiliation": "Shiv Nadar Institution of Eminence, Delhi NCR, India" },
-    { "name": "Rankavat, Shalini" }
+    {"name": "Varma, D. Sai Kiran", "affiliation": "Shiv Nadar Institution of Eminence, Delhi NCR, India"},
+    {"name": "Rankavat, Shalini", "affiliation": "Department of Civil Engineering, School of Engineering, Shiv Nadar Institution of Eminence, Delhi NCR, India"}
   ],
   "keywords": ["transit-oriented development", "node-place model", "NPPE", "OpenStreetMap", "composite indicators", "planning support system", "air quality"],
-  "access_right": "open",
-  "notes": "Before the first release: confirm affiliations (add one for Rankavat), add \"license\" (SPDX id, e.g. \"MIT\"), and optionally ORCID iDs (\"orcid\": \"0000-0000-0000-0000\") for the creators. Remove this note."
+  "license": "MIT",
+  "access_right": "open"
 }
