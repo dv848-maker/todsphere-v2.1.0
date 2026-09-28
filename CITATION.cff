@@ -1,26 +1,19 @@
-# Citation metadata for TODSphere (https://citation-file-format.github.io).
-# Before the first release:
-#   1. set repository-code to the real GitHub URL;
-#   2. set license to the chosen SPDX identifier (see LICENSE);
-#   3. optionally add orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX" to each author;
-#   4. confirm the affiliations (the first author's is taken from the paper build's LICENSE.txt);
-#   5. after Zenodo has minted the DOI, add the concept DOI under identifiers.
-# Do not add a DOI before Zenodo has issued it.
 cff-version: 1.2.0
-message: "If you use TODSphere, please cite the software and the accompanying article."
+message: "If you use TODSphere, please cite this software."
 type: software
 title: "TODSphere: open-data screening of transit-oriented development with the Node–Place–People–Ecology (NPPE) framework"
 version: "2.1.0"
 date-released: "2026-09-28"
 authors:
-  - family-names: Varma
-    given-names: D. Sai Kiran
+  - family-names: "Varma"
+    given-names: "D. Sai Kiran"
     affiliation: "Shiv Nadar Institution of Eminence, Delhi NCR, India"
-  - family-names: Rankavat
-    given-names: Shalini
-    # affiliation: not recorded in the repository; add it before release
-repository-code: "https://github.com/OWNER/todsphere"
-license: NOASSERTION
+  - family-names: "Rankavat"
+    given-names: "Shalini"
+    affiliation: "Department of Civil Engineering, School of Engineering, Shiv Nadar Institution of Eminence, Delhi NCR, India"
+repository-code: "https://github.com/dv848-maker/todsphere-v2.1.0"
+url: "https://github.com/dv848-maker/todsphere-v2.1.0"
+license: MIT
 keywords:
   - transit-oriented development
   - node-place model
@@ -30,10 +23,8 @@ keywords:
   - planning support system
   - air quality
 abstract: >-
-  TODSphere is a browser-based, zero-installation tool that computes seven open-data indicators of
-  transit-oriented development readiness (transit accessibility, built density, land-use diversity,
-  walkability, amenity accessibility, green space and near-road air quality) from OpenStreetMap and CAMS,
-  aggregates them into the Node, Place, People and Ecology dimensions, and reports compensatory and
-  non-compensatory composites, a balance ratio and the limiting dimension, with corridor ranking and
-  robustness analysis. Version 2.1.0 implements methodology NPPE-7 v1.0.0 and reproduces the results of
-  the accompanying manuscript.
+  TODSphere is browser-based research software for open-data screening of transit-oriented
+  development. It computes seven indicators covering transit accessibility, built density,
+  land-use diversity, walkability, amenity accessibility, green space and near-road
+  air-quality screening, aggregates them into Node, Place, People and Ecology dimensions,
+  and provides composite scores, ranking and robustness diagnostics.
