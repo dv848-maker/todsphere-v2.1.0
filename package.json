@@ -1,32 +1,19 @@
 {
   "name": "todsphere",
   "version": "2.1.0",
-  "description": "TODSphere: browser-based open-data screening of transit-oriented development with the Node–Place–People–Ecology (NPPE) framework.",
+  "description": "Browser-based open-data screening of transit-oriented development with the Node–Place–People–Ecology (NPPE) framework.",
   "private": true,
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "main": "src/nppe-engine.js",
   "scripts": {
-    "test": "node --test tests/",
     "start": "node server/server.js",
-    "reproduce": "node scripts/reproduce-paper.js",
+    "test": "node --test tests/",
     "check": "node scripts/check.js",
-    "build:paper-data": "node scripts/build-paper-data.js"
+    "reproduce": "node scripts/reproduce-paper.js"
   },
-  "engines": {
-    "node": ">=18"
-  },
-  "keywords": [
-    "transit-oriented development",
-    "node-place model",
-    "NPPE",
-    "OpenStreetMap",
-    "composite indicators",
-    "planning support system",
-    "air quality"
-  ],
+  "engines": {"node": ">=18"},
+  "keywords": ["transit-oriented development", "node-place model", "NPPE", "OpenStreetMap", "composite indicators", "planning support system", "air quality"],
   "author": "D. Sai Kiran Varma and Shalini Rankavat",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/OWNER/todsphere"
-  }
+  "repository": {"type": "git", "url": "git+https://github.com/dv848-maker/todsphere-v2.1.0.git"},
+  "homepage": "https://github.com/dv848-maker/todsphere-v2.1.0#readme"
 }
